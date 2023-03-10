@@ -1,13 +1,88 @@
-body {
+@import url('https://fonts.googleapis.com/css2?&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --lighter: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
+  ---background: #191923;
+}
+
+body{
+  width: 100%;
+  background-color: var(---background);
+  color: #fff;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.green {
+  color: #01be96;
+}
+
+.slick-list, .slick-slider, .slick-track{
+  padding: 1.5rem 0;
+}
+
+.center .slick-center .project{
+  transform: scale(1.3);
+  z-index: 10000;
+  transition: all 400ms ease-in-out;
+  pointer-events: all;
+  opacity: 1;
+}
+
+.center .project{
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+@media(max-width: 990px){
+  .center .slick-center .project{
+    transform: scale(1);
+  }
+
+  .center .project{
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
+
+/* scroll bar style  */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@keyframes header {
+  0%{
+    transform: translateY(-30px);
+    opacity: 0;
+  } 
+  100%{
+    transform: translateY(0);
+      opacity: 1;
+  }
 }
