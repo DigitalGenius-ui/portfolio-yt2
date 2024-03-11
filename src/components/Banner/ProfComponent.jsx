@@ -46,7 +46,7 @@ const ProfComponent = () => {
       <Slide direction="right">
         <Profile>
           <img
-            src="./bannerUser.png"
+            src="/bannerUser.png"
             alt="profile"
           />
         </Profile>
