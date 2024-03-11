@@ -1,7 +1,7 @@
 
 ## Portfolio using React js and styled-components 2023
 
-<img src="../public/banner.png" alt="banner"/>
+<img src="./public/banner.png" alt="banner"/>
 
 ## Demo
 [Demo](https://uxui-profile.netlify.app/)
