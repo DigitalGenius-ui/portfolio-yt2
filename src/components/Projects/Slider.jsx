@@ -6,23 +6,23 @@ import styled from 'styled-components';
 
 let data = [
     {
-        img : "/banner.png",
+        img : "/img1.png",
         disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
     },
     {
-        img : "/banner.png",
+        img : "/img2.png",
         disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
     },
     {
-        img : "/banner.png",
+        img : "/img3.png",
         disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
     },
     {
-        img : "/banner.png",
+        img : "/img4.png",
         disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
     },
     {
-        img : "/banner.png",
+        img : "/img5.jpg",
         disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
     }
 ];
